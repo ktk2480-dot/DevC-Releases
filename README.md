@@ -3,12 +3,15 @@
 이 저장소는 **설치파일 배포용**입니다(프로그램 소스는 들어 있지 않습니다).
 프로그램을 쓰려면 구입처에서 발급하는 **인증키**가 필요합니다.
 
-## 최신 버전: v0.9.1 (2026-10-24)
+## 최신 버전: v0.9.2 (2026-10-24)
 
 | 내려받기 | 용도 |
 |---|---|
-| **[DevC_Setup_0.9.1.exe](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.1/DevC_Setup_0.9.1.exe)** (약 45MB) | 일반 설치 — 대부분 이것을 쓰세요 |
-| [DevC_0.9.1_portable.zip](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.1/DevC_0.9.1_portable.zip) (약 58MB) | 설치 권한이 없는 PC — 압축을 풀고 `DevC.exe` 실행 |
+| **[DevC_Setup_0.9.2.exe](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.2/DevC_Setup_0.9.2.exe)** (약 46MB) | 일반 설치 — 대부분 이것을 쓰세요 |
+| [DevC_0.9.2_portable.zip](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.2/DevC_0.9.2_portable.zip) (약 59MB) | 설치 권한이 없는 PC — 압축을 풀고 `DevC.exe` 실행 |
+| **[사용설명서 (HTML)](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.2/DevC_UserGuide_0.9.2.html)** | 업무 순서대로 따라 하는 사용법 · API 키 발급 방법 · 신청할 서비스 목록 — 내려받아 브라우저로 여세요 |
+
+사용설명서는 설치한 프로그램 안에도 들어 있습니다(왼쪽 아래 **[📖 사용설명서]**, 시작 메뉴 **개발부담금 산정 프로그램 사용설명서**).
 
 바뀐 내용·이전 버전: [배포 목록](https://github.com/ktk2480-dot/DevC-Releases/releases)
 
@@ -29,11 +32,22 @@
    - **현재 사용자만**: 관리자 권한 없이 설치됩니다.
 4. 설치가 끝나면 시작 메뉴의 **개발부담금 산정 프로그램** 을 실행합니다.
 
+## 에디션 — 인증키를 요청하기 전에 확인하세요
+
+| 에디션 | 기능 | 사무소가 직접 발급할 키 |
+|---|---|---|
+| 베이직 | 입력·산정·저장, 보고서·안내문·서식 출력 | 없음 |
+| 스탠다드 | 베이직 + 공공 API 자동 조회(주소·공시지가·표준지·지가변동률·건축물대장·실거래가·지도) | 공공 API 키(무료) |
+| 프로 | 스탠다드 + AI(서류 판독, 표준지 추천, 개발비용 검토, 검토의견) | 공공 API 키(무료) + **Claude API 키(유료, 쓴 만큼)** |
+
+- **프로의 AI 기능은 사무소가 직접 발급한 Claude API 키가 있어야 동작합니다.** AI를 쓰지 않으려면 **스탠다드**를 요청하세요.
+- 발급할 키와 신청할 서비스(브이월드·도로명주소·공공데이터포털·R-ONE·Claude)는 사용설명서 2장에 순서대로 있습니다.
+
 ## 인증 (처음 한 번)
 
 1. 프로그램 왼쪽 메뉴 **[라이선스]** 를 엽니다.
 2. **① 인증 요청키 생성** 에서 [요청키 생성] → [복사] 를 누릅니다.
-3. 복사한 요청키를 구입처 담당자에게 메일이나 메시지로 보냅니다.
+3. 복사한 요청키를 **원하는 에디션**과 함께 구입처 담당자에게 메일이나 메시지로 보냅니다.
 4. 받은 인증키를 **② 인증키 등록** 에 붙여넣고 [인증키 등록] 을 누릅니다. `.lic` 파일로 받았다면 [인증키 파일 선택] 을 쓰세요.
 
 - 인증 전에는 **읽기 전용** 입니다. 샘플 프로젝트를 보고 내보낼 수 있습니다.
@@ -56,8 +70,8 @@
 내려받은 파일이 원본과 같은지 확인하려면 PowerShell에서 `Get-FileHash 파일이름` 을 실행해 아래 값과 비교하세요.
 
 ```
-DevC_Setup_0.9.1.exe  SHA-256 917a0df60207152f385819133cc020dccab4d183614402dacdeee4f00c951723
-DevC_0.9.1_portable.zip  SHA-256 78f91a3e5bfef4c067e1e5f613c0e36a480aec0c67699e7ce1d8023badc2327a
+DevC_Setup_0.9.2.exe  SHA-256 df72ecf34ba129ebc52422904362ae909d3f62437750df597752fd2ce6b858e5
+DevC_0.9.2_portable.zip  SHA-256 8e8e985a20960f1681bc1a2bc545a8839c4b998891037b781105d21445f2c81f
 ```
 
 ## 문의
