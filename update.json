@@ -1,11 +1,12 @@
 {
-  "latest": "0.9.3",
+  "latest": "0.9.4",
   "published": "2026-10-24",
-  "download_url": "https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.3/DevC_Setup_0.9.3.exe",
-  "sha256": "8a04996224fa85c27418a161f3404b8fd8d7f7ada9b8f9447ef565c1ca6bd370",
+  "download_url": "https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.4/DevC_Setup_0.9.4.exe",
+  "sha256": "28599143d902d0de6d95b8fe7dbf596c9cc01cc5abcb2abfa0f924225ea9f6d5",
   "notes": [
-    "안내문 사무소명 기본값 삭제 — 처음에는 비어 있고 안내문·메일에 '(사무소명 미입력)'으로 표시됩니다. [설정(API·AI)] → 사무소 · 계산 옵션에서 입력하세요",
-    "사용설명서: 1차 안내문 전에 사무소명 입력 단계 추가",
-    "설치 프로그램·실행 파일의 배포자 표시 변경"
+    "지가변동률 자동 갱신 — 부담금 산정 때 필요한 달이 비어 있으면 R-ONE에서 자동으로 받아 다시 계산합니다(지역마다 하루 한 번)",
+    "개시시점지가 화면에 지가변동률 출처·기간·받은 날짜와 아직 공표 전인 달(⚠) 표시, [지가변동률 지금 갱신] 버튼",
+    "실업무(샘플데이터 모드 해제)에서는 내장 샘플 지가변동률을 쓰지 않습니다",
+    "사용설명서: 지가변동률 자동 갱신 안내 반영"
   ]
 }
