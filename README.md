@@ -3,13 +3,13 @@
 이 저장소는 **설치파일 배포용**입니다(프로그램 소스는 들어 있지 않습니다).
 프로그램을 쓰려면 구입처에서 발급하는 **인증키**가 필요합니다.
 
-## 최신 버전: v0.9.2 (2026-10-24)
+## 최신 버전: v0.9.3 (2026-10-24)
 
 | 내려받기 | 용도 |
 |---|---|
-| **[DevC_Setup_0.9.2.exe](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.2/DevC_Setup_0.9.2.exe)** (약 46MB) | 일반 설치 — 대부분 이것을 쓰세요 |
-| [DevC_0.9.2_portable.zip](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.2/DevC_0.9.2_portable.zip) (약 59MB) | 설치 권한이 없는 PC — 압축을 풀고 `DevC.exe` 실행 |
-| **[사용설명서 (HTML)](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.2/DevC_UserGuide_0.9.2.html)** | 업무 순서대로 따라 하는 사용법 · API 키 발급 방법 · 신청할 서비스 목록 — 내려받아 브라우저로 여세요 |
+| **[DevC_Setup_0.9.3.exe](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.3/DevC_Setup_0.9.3.exe)** (약 46MB) | 일반 설치 — 대부분 이것을 쓰세요 |
+| [DevC_0.9.3_portable.zip](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.3/DevC_0.9.3_portable.zip) (약 59MB) | 설치 권한이 없는 PC — 압축을 풀고 `DevC.exe` 실행 |
+| **[사용설명서 (HTML)](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.3/DevC_UserGuide_0.9.3.html)** | 업무 순서대로 따라 하는 사용법 · API 키 발급 방법 · 신청할 서비스 목록 — 내려받아 브라우저로 여세요 |
 
 사용설명서는 설치한 프로그램 안에도 들어 있습니다(왼쪽 아래 **[📖 사용설명서]**, 시작 메뉴 **개발부담금 산정 프로그램 사용설명서**).
 
@@ -70,8 +70,8 @@
 내려받은 파일이 원본과 같은지 확인하려면 PowerShell에서 `Get-FileHash 파일이름` 을 실행해 아래 값과 비교하세요.
 
 ```
-DevC_Setup_0.9.2.exe  SHA-256 df72ecf34ba129ebc52422904362ae909d3f62437750df597752fd2ce6b858e5
-DevC_0.9.2_portable.zip  SHA-256 8e8e985a20960f1681bc1a2bc545a8839c4b998891037b781105d21445f2c81f
+DevC_Setup_0.9.3.exe  SHA-256 8a04996224fa85c27418a161f3404b8fd8d7f7ada9b8f9447ef565c1ca6bd370
+DevC_0.9.3_portable.zip  SHA-256 6e953f89a6dc766b232ebfc92f7bc12ce57cea833834564b65b2e0e7d2a32eda
 ```
 
 ## 문의
