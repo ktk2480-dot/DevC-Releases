@@ -3,12 +3,12 @@
 이 저장소는 **설치파일 배포용**입니다(프로그램 소스는 들어 있지 않습니다).
 프로그램을 쓰려면 구입처에서 발급하는 **인증키**가 필요합니다.
 
-## 최신 버전: v0.9.0 (2026-10-24)
+## 최신 버전: v0.9.1 (2026-10-24)
 
 | 내려받기 | 용도 |
 |---|---|
-| **[DevC_Setup_0.9.0.exe](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.0/DevC_Setup_0.9.0.exe)** (약 45MB) | 일반 설치 — 대부분 이것을 쓰세요 |
-| [DevC_0.9.0_portable.zip](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.0/DevC_0.9.0_portable.zip) (약 58MB) | 설치 권한이 없는 PC — 압축을 풀고 `DevC.exe` 실행 |
+| **[DevC_Setup_0.9.1.exe](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.1/DevC_Setup_0.9.1.exe)** (약 45MB) | 일반 설치 — 대부분 이것을 쓰세요 |
+| [DevC_0.9.1_portable.zip](https://github.com/ktk2480-dot/DevC-Releases/releases/download/v0.9.1/DevC_0.9.1_portable.zip) (약 58MB) | 설치 권한이 없는 PC — 압축을 풀고 `DevC.exe` 실행 |
 
 바뀐 내용·이전 버전: [배포 목록](https://github.com/ktk2480-dot/DevC-Releases/releases)
 
@@ -56,8 +56,8 @@
 내려받은 파일이 원본과 같은지 확인하려면 PowerShell에서 `Get-FileHash 파일이름` 을 실행해 아래 값과 비교하세요.
 
 ```
-DevC_Setup_0.9.0.exe  SHA-256 c2fd4a3e4766e75f6e760444b40e3b6bde0df89e3612844a141c452c00d41b32
-DevC_0.9.0_portable.zip  SHA-256 129b26aba4dc6b23553dfb7859731abd8b85a3b87dce58bbad6de7a03837d435
+DevC_Setup_0.9.1.exe  SHA-256 917a0df60207152f385819133cc020dccab4d183614402dacdeee4f00c951723
+DevC_0.9.1_portable.zip  SHA-256 78f91a3e5bfef4c067e1e5f613c0e36a480aec0c67699e7ce1d8023badc2327a
 ```
 
 ## 문의
